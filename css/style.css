@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url(../img/foto2.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#cor-nome {
+    color:#b885d0;
+    font-style: oblique;
+    text-shadow: 
+    -1px -1px 0px #0e0d0d, 
+    -1px 1px 0px #FFF,                    
+     1px -1px 0px #FFF,                  
+     1px 0px 0px #FFF;
+}
+
+.banner p, h1{
+    color: white;
+    margin: 0;
+}
+
+.banner button {
+    background-color: white;
+    color: #7E4598;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.sobre {
+    background-color: #b885d0;
+    background-image: linear-gradient(#bf9fce, #93499d);
+    padding: 10px;
+}
+
+.descricao, .habilidades {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: large;
+    margin-inline: initial;
+}
+
+.habilidades {
+    margin-left: 285px;
+    padding-left: 10px;
+}
+
+#botao {
+    border-radius: 30px;
+    color:#8b0c9c;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: medium;
+}
+
+.imagens{
+    display: block;
+    margin: 20px;
+    padding-top: 5px;
+    text-align: center;
+   
+}
+.img1, .img2, .img3 {
+    background-color: #7E4598;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    width: 110px;
+    height: 65px;
+    border-style: dotted;
+    border-color: #e2d5e8;
+}
+
+
+
+
